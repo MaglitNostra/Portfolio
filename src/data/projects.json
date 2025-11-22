@@ -1,0 +1,25 @@
+[
+    {
+        "id": 1,
+        "name": "Test Project Number One",
+        "createdAt": "2023-01-15T10:00:00Z",
+        "updatedAt": "2023-02-20T12:00:00Z",
+        "tags": [
+            "react",
+            "html",
+            "css"
+        ],
+        "shortDesc": {
+            "pl": "To jest krótki opis projektu numer jeden.",
+            "en": "This is a short description of project number one."
+        },
+        "content": {
+            "pl": "To jest szczegółowy opis projektu numer jeden. Zawiera on więcej informacji na temat funkcji i technologii użytych w projekcie.",
+            "en": "This is a detailed description of project number one. It includes more information about the features and technologies used in the project."
+        },
+        "links": {
+            "repo": "https://github.com/",
+            "demo": "https://example.com/demo1"
+        }
+    }
+]

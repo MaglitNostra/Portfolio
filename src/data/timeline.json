@@ -1,0 +1,15 @@
+[
+    {
+        "id": 1,
+        "company": "Tech Solutions Ltd.",
+        "position": {
+            "pl": "Inżynier Oprogramowania",
+            "en": "Software Engineer"
+        },
+        "date": "2022 - 2023",
+        "description": {
+            "pl": "Pracowałem nad rozwojem aplikacji webowych, implementując nowe funkcje i optymalizując wydajność.",
+            "en": "Worked on developing web applications, implementing new features and optimizing performance."
+        }
+    }
+]
