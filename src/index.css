@@ -2,15 +2,132 @@
 
 @variant dark (&:where(.dark, .dark *));
 
-html, body{
-    height: 100%;
-    width: 100%;
-    margin: 0;
-    padding: 0;
-    overflow-x: hidden;
+html,
+body,
+#root {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  font-family: "Inter", sans-serif;
 }
 
-:where(.dark) body {
-    background-color: #111827;
-    color: #f3f4f6
+:root {
+  --main-color: #055df5;
+  --bg-terminal: #f3f4f6;
+}
+
+:root.dark {
+  --main-color: #055df5;
+  --bg-terminal: #18181b;
+}
+
+.text-animation {
+  font-family: "Fira Code", "Consolas", "Monaco", monospace;
+  font-size: 28px;
+  font-weight: 600;
+  min-width: 350px;
+  display: inline-block;
+  position: relative;
+  line-height: 1.2;
+}
+
+.text-animation span {
+  position: relative;
+  color: var(--main-color);
+  display: inline-block;
+  white-space: nowrap;
+}
+
+.text-animation span::before {
+  content: "Software Developer";
+  animation: words 20s infinite;
+}
+
+.text-animation span::after {
+  content: "";
+  background-color: var(--bg-terminal);
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: calc(100% + 8px);
+  height: 100%;
+  border-left: 3px solid var(--main-color);
+
+  animation: cursor 0.6s infinite, typing 20s steps(20) infinite;
+}
+
+@keyframes cursor {
+  to {
+    border-left: 2px solid transparent;
+  }
+}
+
+@keyframes words {
+  0%,
+  20% {
+    content: "Software Developer";
+  }
+  21%,
+  40% {
+    content: "Game Developer";
+  }
+  41%,
+  60% {
+    content: "AI Engineer";
+  }
+  61%,
+  80% {
+    content: "Data Scientist";
+  }
+  81%,
+  100% {
+    content: "Software Developer";
+  }
+}
+
+@keyframes typing {
+  0%,
+  20%,
+  40%,
+  60%,
+  80%,
+  100% {
+    width: calc(100% + 10px);
+  }
+  10%,
+  30%,
+  50%,
+  70%,
+  90% {
+    width: 0;
+  }
+  5%,
+  15%,
+  25%,
+  35%,
+  45%,
+  55%,
+  65%,
+  75%,
+  85%,
+  95% {
+    width: 0;
+  }
+}
+
+@keyframes pulse-ring {
+  0% {
+    transform: scale(0.8);
+    opacity: 0.5;
+  }
+  100% {
+    transform: scale(2.4);
+    opacity: 0;
+  }
+}
+
+.animate-pulse-ring {
+  animation: pulse-ring 2s cubic-bezier(0.215, 0.61, 0.355, 1) infinite;
 }
