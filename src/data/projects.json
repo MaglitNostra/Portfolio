@@ -1,25 +1,123 @@
 [
     {
-        "id": 1,
-        "name": "Test Project Number One",
-        "createdAt": "2023-01-15T10:00:00Z",
-        "updatedAt": "2023-02-20T12:00:00Z",
+        "id": "1",
+        "title": "Legends of the Eternal Flame",
+        "createdAt": "20-07-2023",
+        "image": "/Portfolio/images/legends-of-the-eternal-flame.png",
         "tags": [
-            "react",
-            "html",
-            "css"
+            "Unity",
+            "C#",
+            "GameDev",
+            "Steam",
+            "Nintendo Switch"
         ],
+        "links": {
+            "steam": "https://store.steampowered.com/app/2927310/Legends_Of_The_Eternal_Flame/",
+            "nintendo": "https://www.nintendo.com/en-gb/Games/Nintendo-Switch-download-software/Legends-of-the-Eternal-Flame-2415753.html"
+        },
         "shortDesc": {
-            "pl": "To jest krótki opis projektu numer jeden.",
-            "en": "This is a short description of project number one."
+            "pl": "Przygodowa gra platformowa, obejmująca pełen proces produkcji i wydana na Steam oraz Nintendo Switch.",
+            "en": "A platform adventure game covering the full production process, released on Steam and Nintendo Switch."
         },
         "content": {
-            "pl": "To jest szczegółowy opis projektu numer jeden. Zawiera on więcej informacji na temat funkcji i technologii użytych w projekcie.",
-            "en": "This is a detailed description of project number one. It includes more information about the features and technologies used in the project."
-        },
+            "pl": "Opracowanie i wydanie przygodowej gry platformowej. Projekt obejmował wszystkie etapy produkcji gry, od koncepcji, przez projektowanie poziomów, po finalną implementację. Gra została sukcesywnie wydana na platformach Steam i Nintendo Switch.",
+            "en": "Development and release of a platform adventure game. The project included all stages of game production, from concept to level design to final implementation. Successively released the game on Steam and Nintendo Switch platforms."
+        }
+    },
+    {
+        "id": "2",
+        "title": "E-Commerce MonoShopDotNET",
+        "createdAt": "31-08-2025",
+        "tags": [
+            ".NET",
+            "React",
+            "WPF",
+            "Microservices",
+            "Docker",
+            "RabbitMQ",
+            "SQL",
+            "MongoDB",
+            "E-commerce"
+        ],
         "links": {
-            "repo": "https://github.com/",
-            "demo": "https://example.com/demo1"
+            "repo": "https://github.com/MaglitNostra/MonoShopDotNET"
+        },
+        "shortDesc": {
+            "pl": "Modułowa platforma e-commerce oparta na mikroserwisach, z frontendem webowym i desktopowym.",
+            "en": "A modular e-commerce platform based on microservices, with both web and desktop client applications."
+        },
+        "content": {
+            "pl": "MonoShopDotNET to nowoczesna platforma e-commerce zbudowana w architekturze mikroserwisów. Backend składa się z kilku mikroserwisów .NET odpowiedzialnych za użytkowników, produkty, koszyk, zamówienia i powiadomienia, z asynchroniczną komunikacją przez RabbitMQ. Frontend obejmuje aplikację webową w React dla klientów oraz aplikację desktopową WPF dla administratorów. Wszystkie usługi i bazy danych (SQL Server i MongoDB) są konteneryzowane przy użyciu Dockera, a projekt demonstruje skalowalność, modularność oraz integrację nowoczesnych narzędzi DevOps.",
+            "en": "MonoShopDotNET is a modern e-commerce platform built on a microservices architecture. The backend consists of several .NET microservices handling users, products, cart, orders, and notifications, with asynchronous communication via RabbitMQ. The frontend includes a React web application for customers and a WPF desktop application for administrators. All services and databases (SQL Server and MongoDB) are containerized using Docker. The project demonstrates scalability, modularity, and integration of modern DevOps practices."
+        }
+    },
+    {
+        "id": "3",
+        "title": "MicroCoreERP",
+        "createdAt": "17-07-2025",
+        "tags": [
+            ".NET",
+            "Microservices",
+            "Angular",
+            "Docker",
+            "Kubernetes",
+            "ERP"
+        ],
+        "links": {
+            "repo": "https://github.com/MaglitNostra/MicroCoreERP"
+        },
+        "shortDesc": {
+            "pl": "Modularny system ERP oparty na mikroserwisach, konteneryzowany i orkiestrujący usługi w Kubernetes.",
+            "en": "A modular ERP system based on microservices, containerized and orchestrated using Kubernetes."
+        },
+        "content": {
+            "pl": "MicroCoreERP to kompleksowy system ERP zbudowany w architekturze mikroserwisów. Każda kluczowa funkcjonalność biznesowa działa jako oddzielny mikroserwis (.NET), a frontend został stworzony w Angular. System wykorzystuje RabbitMQ do asynchronicznej komunikacji, Docker do konteneryzacji i Kubernetes do orkiestracji. Projekt demonstruje skalowalność, modułowość oraz integrację nowoczesnych technologii DevOps.",
+            "en": "MicroCoreERP is a comprehensive ERP system built on a microservices architecture. Each core business functionality runs as a separate .NET microservice, while the frontend is built in Angular. The system uses RabbitMQ for asynchronous communication, Docker for containerization, and Kubernetes for orchestration. The project demonstrates scalability, modularity, and integration of modern DevOps technologies."
+        }
+    },
+    {
+        "id": "4",
+        "title": "PassGen",
+        "createdAt": "19-11-2025",
+        "tags": [
+            "Python",
+            "CLI",
+            "Security"
+        ],
+        "links": {
+            "repo": "https://github.com/MaglitNostra/PassGen"
+        },
+        "shortDesc": {
+            "pl": "Wielofunkcyjny generator haseł w trybie CLI napisany w Pythonie.",
+            "en": "A multifunctional CLI password generator written in Python."
+        },
+        "content": {
+            "pl": "PassGen to narzędzie CLI do generowania bezpiecznych, losowych lub łatwych do zapamiętania haseł. Oferuje tryb interaktywny, możliwość generowania haseł w stylu xkcd, analizę siły hasła, kopiowanie do schowka oraz obsługę pliku konfiguracyjnego (~/.passgen.conf).",
+            "en": "PassGen is a CLI tool for generating secure random or memorable passwords. It includes an interactive mode, xkcd-style password generation, strength analysis, clipboard support, and configuration file support (~/.passgen.conf)."
+        }
+    },
+    {
+        "id": "5",
+        "title": "Side-Scrolling Platformer",
+        "createdAt": "03-07-2024",
+        "image": "/Portfolio/images/side-scrolling-platformer.png",
+        "tags": [
+            "Unity",
+            "C#",
+            "GameDev",
+            "itch.io"
+        ],
+        "links": {
+            "itchio": "https://maglit.itch.io/side-scrolling-platformer",
+            "gitlab": "https://gitlab.com/MaglitNostra/side-scrolling-platformer"
+        },
+        "shortDesc": {
+            "pl": "Gra platformowa 2D stworzona w silniku Unity.",
+            "en": "2D platformer game created in the Unity engine."
+        },
+        "content": {
+            "pl": "Prototyp gry platformowej 2D z mechanikami skakania, zbierania przedmiotów i unikania przeszkód. Projekt został stworzony w silniku Unity i opublikowany na platformie Itch.io.",
+            "en": "A 2D platformer prototype with mechanics for jumping, collecting items, and avoiding obstacles. The project was created in the Unity engine and published on Itch.io."
         }
     }
 ]

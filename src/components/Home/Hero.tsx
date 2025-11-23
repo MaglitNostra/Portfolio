@@ -1,7 +1,12 @@
 import { useLanguage } from '../../context/LanguageContext';
+import type { ViewType } from '../Layout/Navbar';
 import { GithubIcon, LinkedinIcon, MailIcon } from '../UI/Icons';
 
-export const Hero = () => {
+interface HeroProps {
+    setView: (view: ViewType) => void;
+}
+
+export const Hero = ({ setView }: HeroProps) => {
     const { t } = useLanguage();
 
     return (
@@ -17,7 +22,7 @@ export const Hero = () => {
 
                     <div className="bg-[#f3f4f6] dark:bg-[#18181b] p-6 font-mono">
                         <div className="flex flex-wrap items-center gap-3 text-xl md:text-2xl text-gray-700 dark:text-gray-300">
-                            <span className="text-green-600 dark:text-green-400 font-bold">root@MaglitNostra:~#</span>
+                            <span className="text-indigo-600 dark:text-indigo-400 font-bold">root@MaglitNostra:~#</span>
 
 
                             <span>{t.hero.im_a}</span>
@@ -32,18 +37,28 @@ export const Hero = () => {
                     {t.hero.description}
                 </p>
 
-                <div className="flex items-center justify-center gap-4">
-                    <a href="https://github.com" target="_blank" rel="noreferrer" className="p-3 bg-gray-100 dark:bg-zinc-800 rounded-full hover:bg-blue-100 dark:hover:bg-[#055df5]/20 hover:text-[#055df5] dark:hover:text-[#055df5] transition-all group">
+
+                <div className="flex items-center justify-center gap-10 mb-10">
+                    <button
+                        onClick={() => setView('projects')}
+                        className="bg-[#055df5] text-white font-bold text-2xl py-3 px-16 rounded-full shadow-xl hover:shadow-2xl hover:bg-blue-600 transition-all duration-300 transform hover:-translate-y-1"
+                    >
+                        {t.hero.cta}
+                    </button>
+                </div>
+
+                <div className="flex items-center justify-center gap-6">
+                    <a href="https://github.com/MaglitNostra" target="_blank" rel="noreferrer" className="p-3 bg-gray-100 dark:bg-zinc-800 rounded-full hover:bg-blue-100 dark:hover:bg-[#055df5]/20 hover:text-[#055df5] dark:hover:text-[#055df5] transition-all group">
                         <GithubIcon className="w-6 h-6" />
                     </a>
-                    <a href="https://linkedin.com" target="_blank" rel="noreferrer" className="p-3 bg-gray-100 dark:bg-zinc-800 rounded-full hover:bg-blue-100 dark:hover:bg-[#055df5]/20 hover:text-[#055df5] dark:hover:text-[#055df5] transition-all group">
+                    <a href="https://www.linkedin.com/in/dominik-boniecki-995027313/" target="_blank" rel="noreferrer" className="p-3 bg-gray-100 dark:bg-zinc-800 rounded-full hover:bg-blue-100 dark:hover:bg-[#055df5]/20 hover:text-[#055df5] dark:hover:text-[#055df5] transition-all group">
                         <LinkedinIcon className="w-6 h-6" />
                     </a>
-                    <a href="mailto:kontakt@example.com" className="p-3 bg-gray-100 dark:bg-zinc-800 rounded-full hover:bg-blue-100 dark:hover:bg-[#055df5]/20 hover:text-[#055df5] dark:hover:text-[#055df5] transition-all group">
+                    <a href="mailto:maglit.nostra@gmail.com" className="p-3 bg-gray-100 dark:bg-zinc-800 rounded-full hover:bg-blue-100 dark:hover:bg-[#055df5]/20 hover:text-[#055df5] dark:hover:text-[#055df5] transition-all group">
                         <MailIcon className="w-6 h-6" />
                     </a>
                 </div>
             </div>
-        </section>
+        </section >
     );
 };
