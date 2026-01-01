@@ -5,7 +5,7 @@ export const translations = {
             title_prefix: "Dominik",
             title_suffix: "Boniecki",
             im_a: "Jestem",
-            description: "Software i Unity Developer z doświadczeniem w tworzeniu gier oraz różnorodnych systemów oprogramowania. Posiadam praktyczną wiedzę z zakresu architektury oprogramowania, konteneryzacji oraz Data Science. Łączę pasję do tworzenia aplikacji z solidnym warsztatem inżynierskim, stale poszerzając kompetencje o nowoczesne technologie, w tym rozwiązania sztucznej inteligencji.",
+            description: "Software i Unity Developer z doświadczeniem w tworzeniu gier oraz różnorodnych systemów oprogramowania. Posiadam praktyczną wiedzę z zakresu architektury oprogramowania, konteneryzacji oraz Data Science. Tworzę aplikacje z naciskiem na poprawną architekturę i wysoką jakość kodu, stale poszerzając swoje kompetencje, w tym w obszarze sztucznej inteligencji.",
             cta: "Zobacz Projekty"
         },
         timeline: {
@@ -29,7 +29,7 @@ export const translations = {
             title_prefix: "Dominik",
             title_suffix: "Boniecki",
             im_a: "I'm a",
-            description: "Software and Unity Developer with experience in creating games and various software systems. I have practical knowledge of software architecture, containerization, and Data Science. I combine my passion for creating applications with solid engineering skills, constantly expanding my competences with modern technologies, including artificial intelligence solutions.",
+            description: "Software and Unity Developer with experience in creating games and various software systems. I have practical knowledge of software architecture, containerization, and Data Science. I develop applications with a strong focus on clean architecture and high code quality, continuously expanding my skills, including in the field of artificial intelligence.",
             cta: "View Projects"
         },
         timeline: {

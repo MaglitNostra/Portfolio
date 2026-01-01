@@ -30,10 +30,10 @@ export const Navbar = ({ bgEnabled, setBgEnabled, quality, setQuality, currentVi
                     className="flex items-center gap-4 group cursor-pointer"
                     onClick={() => setView('home')}
                 >
-                    <div className="relative w-10 h-10 flex items-center justify-center bg-gray-100 dark:bg-zinc-900/50 
-                        rounded-lg border border-gray-200 dark:border-white/5 shadow-sm overflow-hidden transition-transform 
-                        group-hover:scale-105 duration-300">
-                        <div className="absolute inset-0 bg-linear-to-tr from-[#055df5]/10 to-transparent opacity-50"></div>
+                    <div className="relative w-10 h-10 flex items-center justify-center 
+                        bg-zinc-900 rounded-lg border border-white/5 shadow-sm 
+                        overflow-hidden transition-transform group-hover:scale-105 duration-300"
+                    >
                         <LogoMN className="w-8 h-8 relative z-10" />
                     </div>
                     <div className="hidden sm:flex flex-col leading-none">

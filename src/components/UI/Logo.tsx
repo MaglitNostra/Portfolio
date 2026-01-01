@@ -33,7 +33,7 @@ export const LogoMN = ({ className }: { className?: string }) => {
                             cx={x + 0.5}
                             cy={y + 0.5}
                             r={0.4}
-                            className={isN ? 'text-[#055df5]' : 'text-gray-900 dark:text-white'}
+                            className={isN ? 'text-[#055df5]' : 'text-white'}
                             style={{ opacity: getOpacity(x, y) }}
                         />
                     );

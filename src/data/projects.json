@@ -2,7 +2,7 @@
     {
         "id": "1",
         "title": "Legends of the Eternal Flame",
-        "createdAt": "20-07-2023",
+        "createdAt": "2023",
         "image": "/Portfolio/images/legends-of-the-eternal-flame.png",
         "tags": [
             "Unity",
@@ -27,7 +27,7 @@
     {
         "id": "2",
         "title": "E-Commerce MonoShopDotNET",
-        "createdAt": "31-08-2025",
+        "createdAt": "2025",
         "tags": [
             ".NET",
             "React",
@@ -54,7 +54,7 @@
     {
         "id": "3",
         "title": "MicroCoreERP",
-        "createdAt": "17-07-2025",
+        "createdAt": "2025",
         "tags": [
             ".NET",
             "Microservices",
@@ -78,7 +78,7 @@
     {
         "id": "4",
         "title": "PassGen",
-        "createdAt": "19-11-2025",
+        "createdAt": "2025",
         "tags": [
             "Python",
             "CLI",
@@ -99,7 +99,7 @@
     {
         "id": "5",
         "title": "Side-Scrolling Platformer",
-        "createdAt": "03-07-2024",
+        "createdAt": "2024",
         "image": "/Portfolio/images/side-scrolling-platformer.png",
         "tags": [
             "Unity",

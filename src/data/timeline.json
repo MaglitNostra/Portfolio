@@ -14,8 +14,8 @@
             "en": "Unity / Software Developer"
         },
         "description": {
-            "pl": "Tworzenie symulatorów i oprogramowania szkoleniowego w Unity oraz .NET.",
-            "en": "Developing simulators and training software using Unity and .NET."
+            "pl": "",
+            "en": ""
         }
     },
     {
@@ -33,8 +33,8 @@
             "en": "Computer Science Student"
         },
         "description": {
-            "pl": "Studia inżynierskie",
-            "en": "Engineering studies"
+            "pl": "",
+            "en": ""
         }
     },
     {
@@ -52,46 +52,8 @@
             "en": "Unity Game Developer"
         },
         "description": {
-            "pl": "Rozwój i optymalizacja mechanik gry, współpraca z zespołem artystów i designerów.",
-            "en": "Developing and optimizing game mechanics, collaborating with artists and designers."
-        }
-    },
-    {
-        "id": 2,
-        "date": {
-            "pl": "2023",
-            "en": "2023"
-        },
-        "company": {
-            "pl": "Legends of the Eternal Flame (Gra)",
-            "en": "Legends of the Eternal Flame (Game)"
-        },
-        "position": {
-            "pl": "Unity Developer",
-            "en": "Unity Developer"
-        },
-        "description": {
-            "pl": "Wydanie pełnej wersji gry na platformy Steam i Nintendo Switch.",
-            "en": "Released full game on Steam and Nintendo Switch."
-        }
-    },
-    {
-        "id": 1,
-        "date": {
-            "pl": "2018 - 2022",
-            "en": "2018 - 2022"
-        },
-        "company": {
-            "pl": "Technikum im. I.W. Garbolewskiego w ZSCKP",
-            "en": "Technical School No. 1 (ZSCKP)"
-        },
-        "position": {
-            "pl": "Technik Informatyk",
-            "en": "IT Technician"
-        },
-        "description": {
-            "pl": "Specjalizacja w sieciach komputerowych i programowaniu.",
-            "en": "Specialization in computer networks and programming."
+            "pl": "",
+            "en": ""
         }
     }
 ]
